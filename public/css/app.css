@@ -1,0 +1,12 @@
+.header-logo {
+    height: 50px !important;
+    width: auto;
+}
+
+.nav-link.active {
+    background-color: #1e90ff; /* Apply some highlight color on active */
+}
+
+.nav-link.active a {
+    color: #ffffff !important; /* Change the text color to white and force overwrite over any other declarations */
+}
